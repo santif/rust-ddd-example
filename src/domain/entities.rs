@@ -1,4 +1,4 @@
-use fake::{Dummy};
+use fake::Dummy;
 
 #[derive(Clone, Dummy, PartialEq, Eq)]
 #[readonly::make]
